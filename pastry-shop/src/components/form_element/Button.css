@@ -1,0 +1,40 @@
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1rem;
+  color: white;
+  background: rgb(0, 4, 255);
+  border: 1px solid rgb(0, 4, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  border-color: rgb(55, 58, 255);
+  background: rgb(55, 58, 255);
+  color: white;
+}
+
+.button--inverse {
+  color: rgb(0, 4, 255);
+  background: white;
+}
+
+.button--disabled,
+.button--disabled:hover {
+  background: rgb(120, 120, 120);
+  border-color: rgb(120, 120, 120);
+  color: rgb(55, 55, 55);
+}
+
+.button--sizebig {
+  font-size: 1.5rem;
+}
+
+.button--sizesmall {
+  padding: 0.5rem 0.5rem;
+  font-size: 0.7rem;
+  margin-right: 0.5rem;
+}

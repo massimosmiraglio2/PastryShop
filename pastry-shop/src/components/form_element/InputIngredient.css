@@ -1,0 +1,52 @@
+.inputingredient__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 0.2rem;
+  align-items: baseline;
+  flex-flow: row wrap;
+  border: 1px solid rgb(213 232 255);
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem;
+}
+
+.inputingredient__input {
+  float: right;
+  margin-right: 0.8rem;
+  width: 30%;
+}
+
+.inputingredient__heading {
+  position: relative;
+}
+.inputingredient__button {
+  position: absolute;
+  border-radius: 100px;
+  background-color: rgb(255 213 232);
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.1rem;
+  text-align: center;
+  top: 0.5rem;
+  right: 0.1rem;
+}
+
+@media (max-width: 768px) {
+  .inputingredient__container {
+    text-align: center;
+  }
+  .inputingredient__input {
+    margin-right: 0;
+    width: 40%;
+  }
+  .inputingredient__input:first-child {
+    width: 90%;
+    padding-right: 1rem;
+  }
+
+  .inputingredient__input label {
+    font-size: 0.75rem;
+  }
+}

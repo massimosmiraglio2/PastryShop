@@ -1,0 +1,15 @@
+.ingredientlist__container {
+  font-size: 80%;
+}
+
+.ingredientlist__title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 0;
+  text-align: center;
+  padding: 5px;
+}
+
+.ingredient__list--empty {
+  text-align: center;
+}

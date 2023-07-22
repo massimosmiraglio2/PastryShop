@@ -1,0 +1,27 @@
+.price__container {
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.2rem;
+  padding: 0 0.5rem;
+  rotate: -5deg;
+
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+
+  font-size: 1.3rem;
+  line-height: 0.01rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(255, 235, 53);
+  text-align: center;
+}
+
+.price__pricenumber {
+  font-weight: bold;
+}
+
+.price__pricenumber--strike {
+  font-size: 80%;
+  text-decoration: line-through;
+  color: red;
+}

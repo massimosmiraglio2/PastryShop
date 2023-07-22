@@ -1,0 +1,13 @@
+{
+  "env": {
+    "DB_USER": "utente mongodb",
+    "DB_PASSWORD": "password mongodb",
+    "DB_HOST": "localhost",
+    "DB_PORT": 27017,
+    "DB_NAME": "pastry-shop",
+
+    "API_SERVER_PORT": 5000,
+
+    "TOKEN_PRIVATE_KEY": "supersecret_private_key"
+  }
+}

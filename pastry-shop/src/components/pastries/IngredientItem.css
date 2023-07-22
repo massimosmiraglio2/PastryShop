@@ -1,0 +1,10 @@
+.ingredient__title {
+    padding: 2px;
+    padding-bottom: 0px;
+    text-align:left;
+    border-bottom: 1px solid grey;
+}
+
+.ingredient__amount {
+    float: right;
+}

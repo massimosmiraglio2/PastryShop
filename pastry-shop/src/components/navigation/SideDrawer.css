@@ -1,0 +1,11 @@
+.sidedrawer {
+  position: fixed;
+  right: 1rem;
+  top: 3rem;
+  z-index: 100;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 2rem 1rem;
+  background-color: rgb(88, 91, 255);
+  color: white;
+}

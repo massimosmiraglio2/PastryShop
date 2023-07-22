@@ -1,0 +1,41 @@
+.input__container {
+  margin: 1rem 0;
+}
+
+.input__container label,
+.input__container input,
+.input__container textarea {
+  display: block;
+}
+
+.input__container label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input__container input,
+.input__container textarea {
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: 0.15rem 0.25rem;
+}
+
+.input__container input:focus,
+.input__container textarea:focus {
+  outline: none;
+  background: #ebebeb;
+  border-color: #510077;
+}
+
+.input__container--invalid label,
+.input__container--invalid p {
+  color: red;
+}
+
+.input__container--invalid input,
+.input__container--invalid textarea {
+  border-color: red;
+  background: #ffd1d1;
+}
